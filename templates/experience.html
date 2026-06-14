@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="section-header">
+            <h1>Work Experience</h1>
+            <p>My professional and organizational journey.</p>
+        </div>
+
+        <div class="timeline">
+            {% for item in data.experience %}
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>{{ item.role }}</h3>
+                    <span class="company">{{ item.company }}</span>
+                    <span class="duration">{{ item.duration }}</span>
+                    <ul>
+                        {% for desc in item.description %}
+                        <li>{{ desc }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

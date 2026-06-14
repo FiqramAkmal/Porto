@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="section-header">
+            <h1>Certifications</h1>
+            <p>Validated skills and professional credentials.</p>
+        </div>
+
+        <div class="projects-grid">
+            {% for cert in data.certifications %}
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="company">{{ cert.issuer }}</span>
+                    <h3>{{ cert.name }}</h3>
+                    <p>Credential ID: {{ cert.credential_id }}</p>
+                    <span class="tag">{{ cert.date }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="mt-5">
+            <div class="section-header">
+                <h1>Honors & Recognition</h1>
+            </div>
+            <div class="projects-grid">
+                {% for achievement in data.achievements %}
+                <div class="project-card" style="border-left: 5px solid var(--accent);">
+                    <div class="project-info">
+                        <span class="duration">{{ achievement.date }}</span>
+                        <h3>{{ achievement.title }}</h3>
+                        <p>{{ achievement.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="section-header">
+            <h1>About Me</h1>
+            <p>Passionate about Electrical Engineering, Cybersecurity, and IoT.</p>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3>My Story</h3>
+                <p>{{ data.profile.summary }}</p>
+                <p>As an Electrical Engineering student, I bridge the gap between hardware and software, focusing on building secure and intelligent systems.</p>
+
+                <div class="mt-4">
+                    <h3>Technical Overview</h3>
+                    <p>I specialize in identifying vulnerabilities in web and infrastructure systems while also developing AIoT solutions for real-world problems like agriculture.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="info-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h4>Education</h4>
+                        <p>{{ data.education[0].institution }}</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>{{ data.profile.location }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "Fiqram Akmal",
+    "title": "Electrical Engineering Student | Cybersecurity & IoT Enthusiast",
+    "location": "Bandung, Indonesia",
+    "email": "fiqramakmal@example.com",
+    "linkedin": "https://linkedin.com/in/fiqramakmal",
+    "github": "https://github.com/fiqramakmal",
+    "photo_url": "profile.jpg",
+    "photo_alt": "Portrait of Fiqram Akmal",
+    "summary": "Electrical Engineering undergraduate at Universitas Padjadjaran with hands-on experience in cybersecurity and IoT systems development. Demonstrated ability to identify and responsibly disclose critical security vulnerabilities (CVSS 10.0) in government and enterprise systems. Proficient in penetration testing, web security, SQL injection analysis, access control assessment, and IoT/AIoT prototyping using Python and ESP32. Actively seeking opportunities in cybersecurity and IoT engineering."
+  },
+  "skills": [
+    {
+      "category": "Cybersecurity",
+      "items": ["Penetration Testing", "SQL Injection", "Broken Access Control (IDOR)", "OWASP Top 10", "Responsible Disclosure", "CVSS Scoring", ".git Exposure", "RCE Analysis", "PostgreSQL RLS Misconfiguration"]
+    },
+    {
+      "category": "IoT & Embedded Systems",
+      "items": ["ESP32", "Sensor Integration", "Soil Moisture", "Temperature", "Humidity", "Flask REST API", "HTTP Communication", "Arduino/MicroPython"]
+    },
+    {
+      "category": "Programming & Tools",
+      "items": ["Python", "SQL", "Scikit-Learn", "Streamlit", "Flask", "Git", "Linux"]
+    },
+    {
+      "category": "Machine Learning",
+      "items": ["Random Forest Classification", "Real-Time Data Fusion", "Predictive Modeling", "Data Visualization"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Samsung Innovation Campus Batch 7 — Participant",
+      "company": "Samsung Innovation Campus, Indonesia",
+      "duration": "Aug 2025 – Dec 2025",
+      "description": [
+        "Collaborated in the FqrmDBL team on AI and IoT application development using Python.",
+        "Applied machine learning concepts and IoT integration in real-world project scenarios.",
+        "Gained practical experience in AIoT system design and implementation."
+      ]
+    },
+    {
+      "role": "Media and Information Staff",
+      "company": "Himpunan Mahasiswa Teknik Elektro UNPAD, Jatinangor",
+      "duration": "Feb 2025 – Dec 2025",
+      "description": [
+        "Managed digital media and information dissemination for the electrical engineering student association.",
+        "Contributed to organizational communication and public engagement initiatives."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "WEATHERING — AIoT Smart Watering Decision System",
+      "date": "Aug 2025",
+      "description": "Developed an AIoT system fusing real-time IoT sensor data (soil moisture, temperature, humidity) with weather forecasts to automate irrigation decisions. Built a Random Forest Classification model using Scikit-Learn; deployed a Streamlit dashboard.",
+      "image_url": "project-weathering.jpg",
+      "image_alt": "Smart irrigation dashboard and plant monitoring setup",
+      "tags": ["AIoT", "Python", "Scikit-Learn", "Streamlit", "IoT"]
+    },
+    {
+      "title": "Smart Hydroponic Monitoring & Control System",
+      "date": "Feb 2025",
+      "description": "Designed an IoT-based hydroponic system using ESP32 microcontroller with Flask-based REST API backend. Enabled real-time remote monitoring and control via web interface.",
+      "image_url": "project-hydroponic.jpg",
+      "image_alt": "Embedded system electronics and monitoring interface",
+      "tags": ["IoT", "ESP32", "Flask", "REST API"]
+    },
+    {
+      "title": "Responsible Disclosure — Chained RCE Attack (CVSS 10.0)",
+      "date": "Mar 2026",
+      "description": "Discovered a critical attack chain: .git Directory Exposure → Source Code Leak → Database Credential Exposure → Public MSSQL Access → Remote Code Execution. Reported to Perumda Tugu Tirta Kota Malang.",
+      "image_url": "project-rce.jpg",
+      "image_alt": "Cybersecurity analysis dashboard on dark screens",
+      "tags": ["Cybersecurity", "RCE", "Responsible Disclosure", "Critical"]
+    },
+    {
+      "title": "Responsible Disclosure — SQL Injection",
+      "date": "Jun 2026",
+      "description": "Discovered and disclosed a Cookie-header SQL Injection vulnerability in a North Kalimantan Provincial Government web application (ciku.kaltaraprov.go.id). Received official Certificate of Appreciation.",
+      "image_url": "project-sqli.jpg",
+      "image_alt": "Secure coding screen with highlighted code",
+      "tags": ["Cybersecurity", "SQLi", "Web Security"]
+    },
+    {
+      "title": "Responsible Disclosure — Broken Access Control",
+      "date": "Apr 2026",
+      "description": "Identified misconfigured PostgreSQL Row-Level Security (RLS) causing IDOR vulnerability exposing customer records via PostgREST API. Remediated by Hairnerds team.",
+      "image_url": "project-idor.jpg",
+      "image_alt": "Database security concept with pink-lit screens",
+      "tags": ["Cybersecurity", "IDOR", "PostgreSQL", "RLS"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering — Electrical Engineering",
+      "institution": "Universitas Padjadjaran (UNPAD), Bandung, Indonesia",
+      "duration": "Jan 2024 – Present"
+    },
+    {
+      "degree": "Mathematics and Science (High School)",
+      "institution": "SMA Negeri 20 Bandung",
+      "duration": "Jan 2021 – Dec 2024"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Ethical Hacker",
+      "issuer": "Cisco Networking Academy",
+      "date": "Mar 2026",
+      "credential_id": "0f41bd45-6f2a-4e65-96a9-b1151d428c1c",
+      "image_url": "certificate-ethical-hacker.jpg",
+      "image_alt": "Certificate presentation and professional achievement"
+    },
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "date": "Mar 2026",
+      "credential_id": "0bcabd56-2cf8-4350-ba48-9256fc3869cd",
+      "image_url": "certificate-intro-cybersecurity.jpg",
+      "image_alt": "Cybersecurity certification themed image"
+    },
+    {
+      "name": "SKF100: Understanding the OWASP® Top 10 Security Threats",
+      "issuer": "The Linux Foundation",
+      "date": "Mar 2026",
+      "credential_id": "fd6b42c3-2d0c-470b-8a38-88e685828132",
+      "image_url": "certificate-owasp-top10.jpg",
+      "image_alt": "Abstract technology certificate background"
+    },
+    {
+      "name": "SQL Course Certificate",
+      "issuer": "Sololearn",
+      "date": "Mar 2026",
+      "credential_id": "CC-HNTITIJO",
+      "image_url": "certificate-sql.jpg",
+      "image_alt": "Programming certificate background image"
+    },
+    {
+      "name": "Python Course Certificate",
+      "issuer": "Sololearn",
+      "date": "Jun 2023",
+      "credential_id": "CC-GXYGQLKD",
+      "image_url": "certificate-python.jpg",
+      "image_alt": "Python learning and certificate background"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Certificate of Appreciation — DKISP Provinsi Kalimantan Utara",
+      "date": "Jun 2026",
+      "description": "Officially recognized for responsibly disclosing a SQL Injection vulnerability in a government web application.",
+      "image_url": "achievement-dkisp.jpg",
+      "image_alt": "Award and certificate appreciation display"
+    },
+    {
+      "title": "Certificate of Appreciation — Perumda Air Minum Tugu Tirta Kota Malang",
+      "date": "Mar 2026",
+      "description": "Officially recognized for responsibly disclosing a critical RCE vulnerability chain (CVSS 10.0) in web infrastructure.",
+      "image_url": "achievement-tugutirta.jpg",
+      "image_alt": "Recognition certificate in elegant presentation"
+    }
+  ]
+}

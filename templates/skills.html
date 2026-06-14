@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="section-header">
+            <h1>Skills & Expertise</h1>
+            <p>Technical proficiencies and specialized knowledge.</p>
+        </div>
+
+        <div class="skills-grid">
+            {% for category in data.skills %}
+            <div class="skill-card">
+                <h3>{{ category.category }}</h3>
+                <ul>
+                    {% for item in category['items'] %}
+                    <li><i class="fas fa-check-circle"></i> {{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
